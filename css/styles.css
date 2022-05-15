@@ -77,7 +77,7 @@ a:hover {
 }
 
 #dubmovie-card-list {
-    padding: 40px 0;
+    padding: 40px 10;
 }
 
 .dubmovie-card {
@@ -97,7 +97,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
     border-radius: 0 0 8px 8px;
-    height: 220px;
+    height: 190px;
     justify-content: space-between;
 }
 
