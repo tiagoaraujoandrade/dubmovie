@@ -6,6 +6,8 @@
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #AAAAAA;
+    --star-yellow:#FFBB3A;
+    --gray-avaliations: #989898;
 
 }
 
@@ -95,7 +97,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
     justify-content: space-between;
 }
 
@@ -106,8 +108,31 @@ a:hover {
     text-align: center;
 }
 
-.dubmovie-btn,
-.dubmovie-btn:hover {
+.dubmovie-card-description-bottom img {
+    width: 20px;
+}
+
+.dubmovie-card-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dubmovie-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dubmovie-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray-avaliations);
+    margin-bottom: 10px;
+}
+
+
+.dubmovie-btn, .dubmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
