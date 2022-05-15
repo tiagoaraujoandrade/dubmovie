@@ -8,7 +8,7 @@
     --text-light-gray: #AAAAAA;
     --star-yellow:#FFBB3A;
     --gray-avaliations: #989898;
-
+    --blue:#4D41C0;
 }
 
 * {
@@ -77,7 +77,7 @@ a:hover {
 }
 
 #dubmovie-card-list {
-    padding: 40px 10;
+    padding: 0 10px;
 }
 
 .dubmovie-card {
@@ -189,4 +189,53 @@ a:hover {
 .dubmovie-form-group label {
     font-size: 12px;
     color: var(--text-light-gray);
+}
+
+.dubmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dubmovie-pagination-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dubmovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--white);
+}
+
+.dubmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dubmovie-pagination-box button img {
+
+    filter: brightness(0) saturate(100%) invert(22%) sepia(29%) saturate(5247%) hue-rotate(242deg) brightness(92%) contrast(82%)
+}
+
+.dubmovie-pagination-box button:disabled {
+    border: 1px solid var(--text-light-gray);
+}
+
+.dubmovie-pagination-box button:disabled img {
+    filter: unset;
+}
+
+
+
+.dubmovie-flip-horizontal {
+    transform: rotate(180deg);
 }
