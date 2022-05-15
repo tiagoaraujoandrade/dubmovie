@@ -49,6 +49,12 @@ a, a:hover{
     color: unset;
 }
 
+.dubmovie-logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
 .dubmovie-contact-container {
     display: flex;
     align-items: center;
@@ -74,19 +80,20 @@ a, a:hover{
 
 .dubmovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
+    justify-content: space-between;
 }
 
 .dubmovie-card-description h3 {
-    display: flex;
-    align-items: center;
     margin-bottom: 25px;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
 }
 
 .dubmovie-btn, .dubmovie-btn:hover {
