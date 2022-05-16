@@ -63,7 +63,11 @@ a:hover {
 .dubmovie-logo-container {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 0px;
+}
+
+.dubmovie-logo-container img {
+    margin-right: 10px;
 }
 
 .dubmovie-contact-container {
@@ -199,14 +203,14 @@ a:hover {
 
 .dubmovie-pagination-box {
     display: flex;
-    width: 180px;
+    width: 150px ;
     justify-content: space-between;
     align-items: center;
 }
 
 .dubmovie-pagination-box p {
     margin: 0;
-    font-size: 12px;
+    font-size: 11px;
     color: var(--white);
 }
 
